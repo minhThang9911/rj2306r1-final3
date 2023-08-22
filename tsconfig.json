@@ -3,7 +3,9 @@
         "remix.env.d.ts",
         "**/*.ts",
         "**/*.tsx",
-        "app/layouts/Menu/index.jsx"
+        "app/layouts/Menu/index.jsx",
+        "app/layouts/Menu/MenuItem/styles.js",
+        "app/layouts/Menu/MenuItem/index.jsx"
     ],
     "compilerOptions": {
         "lib": ["DOM", "DOM.Iterable", "ES2019"],
