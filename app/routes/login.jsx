@@ -2,7 +2,7 @@ import { useState } from "react";
 import LoginLayout from "../layouts/Login/Layout";
 import * as S from "../layouts/Login/styles";
 import fUserList from "../_fake/userList";
-function Login() {
+function LoginPage() {
     // const auth = useContext(AuthContext);
     const userList = fUserList;
     const [email, setEmail] = useState("");
@@ -57,4 +57,4 @@ function Login() {
     );
 }
 
-export default Login;
+export default LoginPage;

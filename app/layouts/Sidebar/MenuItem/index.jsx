@@ -1,5 +1,6 @@
+import * as S from "./styles";
 function MenuItem({ menuItem }) {
-    return <li>{menuItem.title}</li>;
+    return <S.MenuItem>{menuItem.title}</S.MenuItem>;
 }
 
 export default MenuItem;
